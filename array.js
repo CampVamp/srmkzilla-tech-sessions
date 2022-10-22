@@ -1,11 +1,11 @@
 let arr = [34,52,77];
 
-// let add10 = (arr.forEach((item)=>{
-//     item+=10;
-// }))
+arradd = (num)=>{
+    for(let i=0;i<arr.length;i++){
+        arr[i]+=num;
+    }
+}
 
-arr.forEach((item)=>{
-    item+10;
-})
-
+arradd(5);
 console.log(arr);
+
