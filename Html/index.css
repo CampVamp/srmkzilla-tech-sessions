@@ -141,3 +141,24 @@ body {
   border-color: white;
   border-width: 0.5px;
 }
+
+.collaborate-alt {
+  display: none;
+  margin: 20px 0 0;
+  padding: 24px 40px;
+  background-color: #1f1e24;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .content-box {
+    flex-direction: column-reverse;
+  }
+  .collaborate {
+    display: none;
+  }
+
+  .collaborate-alt {
+    display: block;
+  }
+}
